@@ -1,5 +1,58 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Center the header text */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey; /* You can change this to your preferred color */
+  text-align: center;
+  color: white; /* Text color */
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+/* Reduce font size and center the image caption */
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Style paragraphs inside #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Float #details divs to the left and give consistent styling */
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: lightgrey; /* Optional background color */
+  margin: 10px 0;
+}
+
+/* Footer styling - each div takes 25% of the width, centered text */
+footer div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: lightgrey; /* Apply any color */
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+/* Temporary test rule to ensure CSS is linked */
+h1 {
+  color: red; /* Remove after testing */
 }
